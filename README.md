@@ -59,6 +59,7 @@ if (responseCode == 200) {
   Serial.print("Falha na atualização. Código de resposta: ");
   Serial.println(responseCode);
 }
+```
 
 Os códigos de resposta comuns incluem:
 
@@ -67,7 +68,7 @@ Os códigos de resposta comuns incluem:
     403: Acesso negado (verifique a chave de API).
     404: Canal não encontrado (o número do canal pode estar incorreto).
 
-Considerações Finais
+### Considerações Finais
 
 Este projeto é uma excelente base para desenvolver aplicações de monitoramento ambiental e pode ser expandido com mais sensores ou diferentes plataformas de visualização. Ao modificar ou expandir este projeto, considere a estrutura do código e a manutenção da clareza nas funções para facilitar a colaboração e a evolução do projeto.
 Contribuições
@@ -76,9 +77,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 Licença
 
 Este projeto está licenciado sob a MIT License.
-
-markdown
-
 
 ### Explicações Inclusas:
 
