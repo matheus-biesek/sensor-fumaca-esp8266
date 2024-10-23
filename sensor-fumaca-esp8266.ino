@@ -66,7 +66,7 @@ void loop() {
     Serial.println("Falha na conexão com o ThingSpeak");
   }
 
-  delay(3000);  // Espera 3 segundos antes de enviar novamente
+  delay(15000); // Espera 15 segundos antes de enviar novamente
 }
 
 // Função para conectar ao Wi-Fi com tentativas e feedback
