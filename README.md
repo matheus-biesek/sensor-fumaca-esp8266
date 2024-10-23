@@ -46,13 +46,12 @@ int sensorValue = analogRead(A0); // Leitura do pino A0
 // Enviar o valor do sensor para o campo 1 do ThingSpeak
 ThingSpeak.setField(1, sensorValue);
 int responseCode = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
+```
 
 Exemplos de Resposta do ThingSpeak
-
 Após a execução da função writeFields, o código verifica o código de resposta:
 
-cpp
-
+```cpp
 if (responseCode == 200) {
   Serial.println("Atualização bem-sucedida no ThingSpeak");
 } else {
